@@ -22,9 +22,9 @@ Technologies:
 - Django + SqlLite + BASIC FRONTEND (BOOTSTRAP) + crispy forms - https://startbootstrap.com/templates/ecommerce/
 
 Steps:
-1.Create Github Repository, venv and .gitignore,
-2. Install Django and create project!
-3. Create apps - users / products / orders
+1.Create Github Repository, venv and .gitignore,        (DONE)
+2. Install Django and create project!                   (DONE)
+3. Create apps - users / products / orders              (DONE)
 4. create models (plan database) !!!!!!!!!!!!!:
     4.1 Products app models:
         - Product:
