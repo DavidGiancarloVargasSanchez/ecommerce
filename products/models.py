@@ -6,7 +6,7 @@ from users.models import User
 # Create your models here.
 class Category(models.Model):
     name = models.CharField(max_length=50)
-    #image = models.ImageField(upload_to='static/images')
+    image = models.ImageField(upload_to='category', null=True)
 
     def __str__(self):
         return self.name
@@ -15,7 +15,7 @@ class Category(models.Model):
 class Product(models.Model):
     name = models.CharField(max_length=200, null=True)
     description = models.TextField(max_length=600, null=True)
-    #image = models.ImageField(upload_to='static/images')
+    image = models.ImageField(upload_to='products', null=True)
     price = models.FloatField()
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
 
