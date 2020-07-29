@@ -134,4 +134,3 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # Folder where images will be store
 
 
 
-
