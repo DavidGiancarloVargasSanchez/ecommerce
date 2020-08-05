@@ -40,16 +40,19 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="{% url 'register' %}">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a data-target="#modal-contact" data-toggle="modal" class="nav-link"  href="#modal-contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a data-target="#modal-contact" data-toggle="modal" class="nav-link"  href="#modal-contact">Login</a>
+                        <a class="nav-link" href="#">Login</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
                     </li>    
                     <!--li class="nav-item">
                         <div>
@@ -62,6 +65,7 @@
             </div>
         </div>
     </nav>
+    {% include 'contact-modal.html' %}    
     <div class="container">
 
         <div class="row">
@@ -97,7 +101,7 @@
     <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
     <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
-    {% include 'contact-modal.html' %}    
+    
 
 </body>
 

@@ -6,3 +6,61 @@
 body {
   padding-top: 56px;
 }
+
+
+/* For contact-modal */
+.modal-contact {
+	color: #636363;
+	width: 350px;
+}
+.modal-contact .modal-content {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-contact .modal-header {
+	border-bottom: none;
+	position: relative;
+	justify-content: center;
+}
+.modal-contact h4 {
+	text-align: center;
+	font-size: 26px;
+}
+.modal-contact  .form-group {
+	position: relative;
+}
+.modal-contact i {
+	position: absolute;
+	left: 13px;
+	top: 11px;
+	font-size: 18px;
+}
+.modal-contact .form-control {
+	padding-left: 40px;
+}
+.modal-contact .form-control:focus {
+	border-color: #00ce81;
+}
+.modal-contact .form-control, .modal-contact .btn {
+	min-height: 40px;
+	border-radius: 3px; 
+}
+.modal-contact .hint-text {
+	text-align: center;
+	padding-top: 10px;
+}
+.modal-contact .close {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}
+.modal-contact .btn, .modal-contact .btn:active {	
+	border: none;
+	background: #00ce81 !important;
+	line-height: normal;
+}
+.modal-contact .btn:hover, .modal-contact .btn:focus {
+	background: #00bf78 !important;
+}
+/* End for contact-modal */
